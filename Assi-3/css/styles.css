@@ -1,22 +1,25 @@
 /* Base Styles */
-
+/*
 * {
 	box-sizing: border-box;
-}
+}*/
 
 h1 {
 	font-family: Brushstroke, fantasy;
 	color: brown;
 }
 
+h2 {
+	font-family: sans-serif;font-variant: all;
+}
 body {
-	background-image: url("background.jpg");
-	background-color: lightgreen;
+	background-image: url("../imagess/audi.jpg");
+	background-color:black;
 
 }
 
 p {
-	padding: 10px;
+	padding: 0;
 	margin: 0;
 }
 
@@ -24,11 +27,11 @@ p {
 	border: none;
 	margin-left: auto;
 	margin-right: auto;
-	margin-top: 10px;
-	margin-bottom: 10px;
-	padding: 10px;
+	margin-top: 20px;
+	margin-bottom: 20px;
+	padding: 20px;
 }
-
+/*
 section {
 	border:	1px solid black;
 	background-color: #00FF99;
@@ -66,7 +69,7 @@ section {
 	margin-bottom: 0;
 	margin-top: 0;
 	padding: 5px;
-	background-color: #FF1439;
+*	background-color: #FF1439;
 }
 
 #sushi {
@@ -83,7 +86,6 @@ section {
 	color: white;
 	padding: 5px;
 }
-
 #chicken-div {
   margin-bottom: 10px;
   margin-top: 10px;
@@ -98,7 +100,7 @@ section {
   margin-bottom: 10px;
   margin-top: 10px;
 }
-
+*/
 .navbar-brand {
   font-size: 2em;
   border: 0 0 10px 10px;
@@ -107,31 +109,44 @@ section {
 
 #header-nav {
   border: 0;
-  background-color: #FC5F06;
+  background-color: #FFC60C;
   color: #FFFFFF;
 }
 
-.navbar-header button.navbar-toggle, .navbar-header .icon-bar {
+/*.navbar-header button.navbar-toggle, .navbar-header .icon-bar {
   border: 1px solid #61122f;
 }
 .navbar-header button.navbar-toggle {
   clear: both;
   margin-top: -30px;
-}
+}*/
 
 .nav-header {
   background-color: #FFFFFF;
 }
 
 .nav-brand {
-  color: #FFFFFF;
-  font-size: 1.5em;
+  color: #f6117d;
+  font-size: 1.2em;
 }
 
 #nav-list {
   color: white;
 }
 
+#nav-bar {
+	position: sticky;
+	top: 0;
+	z-index: 10;
+}
+.navbar-nav li{
+	padding: 0 10px;
+
+}
+.navbar-nav li a{
+	color: #fff !important;
+
+}
 hr {
   border-color: white;
 }
